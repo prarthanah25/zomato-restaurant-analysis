@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.env
+data/raw/zomato.csv
+data/cleaned/zomato_cleaned.csv
