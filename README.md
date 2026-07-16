@@ -1,59 +1,103 @@
-# Zomato Restaurant Data Analysis
+# 🍽️ Zomato Restaurant Data Analysis
 
-## Project Overview
-This project analyzes the Zomato Bangalore restaurant dataset using Python. The goal is to clean the data, perform exploratory data analysis (EDA), and answer business-related questions through visualizations.
+## 📌 Project Overview
 
-## Dataset
-- Source: Zomato Bangalore Dataset
-- Rows: 51,717
-- Columns: 17
+This project analyzes the Zomato Bangalore Restaurant dataset using Python. The aim is to clean the raw dataset, perform Exploratory Data Analysis (EDA), and answer business-related questions through data visualization.
 
-## Objectives
-- Clean missing and inconsistent data
-- Perform Exploratory Data Analysis (EDA)
-- Visualize restaurant trends
-- Answer business questions using data
+This project demonstrates the complete data analysis workflow—from raw data to business insights.
 
-## Technologies Used
+---
+
+## 🎯 Problem Statement
+
+The food delivery industry generates a huge amount of restaurant data. The objective of this project is to analyze restaurant information to discover trends in ratings, cuisines, pricing, locations, and customer preferences.
+
+---
+
+## 📂 Dataset
+
+- Dataset: Zomato Bangalore Restaurants
+- Records: 51,717
+- Features: 17
+
+---
+
+## 🛠️ Technologies Used
+
 - Python
 - Pandas
 - NumPy
 - Matplotlib
-- Seaborn
 - Jupyter Notebook
+- Git
+- GitHub
 
-## Business Questions
+---
+
+## 📊 Business Questions Answered
+
 1. Which locations have the highest number of restaurants?
-2. Do restaurants with online ordering have higher ratings?
-3. Does table booking affect restaurant ratings?
-4. Which restaurant types are most common?
-5. Which cuisines are the most popular?
-6. Which locations have the highest average ratings?
-7. What is the cost distribution for two people?
-8. Which restaurants receive the highest number of votes?
+2. Do restaurants offering online ordering have higher ratings?
+3. Does table booking affect ratings?
+4. Which cuisines are the most popular?
+5. How are restaurant ratings distributed?
+6. What is the cost distribution for two people?
+7. Which restaurants receive the highest number of votes?
+8. Which locations have the highest average ratings?
 
-## Project Structure
+---
 
-```
+## 📈 Key Insights
+
+- BTM has one of the highest numbers of restaurants.
+- Restaurants offering online ordering generally receive slightly better ratings.
+- Restaurants with table booking tend to have higher ratings.
+- North Indian and Chinese cuisines dominate the market.
+- Most restaurants have ratings between 3.5 and 4.0.
+- Most restaurants charge a moderate price for two people.
+
+---
+
+## 📁 Project Structure
+
+```text
 Zomato-Restaurant-Analysis/
 │
 ├── data/
 │   ├── raw/
 │   └── cleaned/
-├── notebooks/
 ├── images/
-├── reports/
-├── src/
+├── notebooks/
 ├── README.md
 ├── requirements.txt
-└── LICENSE
+├── LICENSE
+└── .gitignore
 ```
 
-## Results
-- Cleaned the dataset successfully.
-- Performed data preprocessing.
-- Answered 8 business questions using visualizations.
-- Saved the cleaned dataset.
+---
 
-## Author
-Prarthana
+## ▶️ How to Run
+
+1. Clone the repository
+2. Install the required libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Open the notebook
+
+```bash
+jupyter notebook
+```
+
+4. Run all cells.
+
+---
+
+## 👤 Author
+
+**Prarthana**
+
+GitHub:
+https://github.com/prarthanah25
