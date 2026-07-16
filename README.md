@@ -56,7 +56,7 @@ Zomato-Restaurant-Analysis
 
 ## 📸 Dashboard Preview
 
-(Add your dashboard screenshot here after uploading it.)
+![Zomato Dashboard](images/dashboard.png)
 
 ---
 
